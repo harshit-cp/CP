@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Compiled files
+*.exe
+*.out
+*.o
+*.class
+
+# Debug files
+*.dSYM/
+
+# Temporary files
+*.tmp
+*~
+
+# Local notes (if you want to keep some notes private)
+# notes/private/
