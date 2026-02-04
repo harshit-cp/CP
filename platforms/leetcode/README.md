@@ -1,16 +1,16 @@
 # 🟡 LeetCode Progress
 
 ## Stats
-- **Total Solved:** 0
+- **Total Solved:** 1
 - **Easy:** 0
-- **Medium:** 0
+- **Medium:** 1
 - **Hard:** 0
 
 ## Problem Log
 
 | # | Problem | Difficulty | Topics | Date | Notes |
 |---|---------|------------|--------|------|-------|
-| | | | | | |
+| 1 | [Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray-after-removing-at-most-one-element/) | Medium | DP | Feb 4 | Right-Left DP pattern |
 
 ## Patterns Practiced
 - [ ] Arrays & Hashing

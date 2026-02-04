@@ -6,7 +6,7 @@
 
 | Date | Problems | Topics | Key Learnings | Notes |
 |------|----------|--------|---------------|-------|
-| | | | | |
+| Feb 4 | Longest Alternating Subarray | DP | Right-Left DP pattern for "remove one element" problems | First problem! 🎉 |
 
 ---
 
@@ -26,17 +26,17 @@
 
 | Problem | Topic | Pattern | Link |
 |---------|-------|---------|------|
-| | | | |
+| Longest Alternating Subarray | DP | Right-Left DP | [LeetCode](https://leetcode.com/problems/longest-alternating-subarray-after-removing-at-most-one-element/) |
 
 ---
 
 ## 📊 Weekly Stats
 
 ### Week 1 (Feb 1-7, 2026)
-- Problems Solved: 0
-- Topics Covered: 
-- Time Spent: 0 hrs
-- Notes: Just getting started!
+- Problems Solved: 1
+- Topics Covered: Dynamic Programming (Right-Left DP)
+- Time Spent: -
+- Notes: Started with a solid Medium DP problem!
 
 ---
 

@@ -40,6 +40,12 @@ Optimization technique using overlapping subproblems and optimal substructure.
 ### 7. State Machine DP
 - **Buy/Sell Stock** - States: hold, not-hold, cooldown
 
+### 8. Right-Left DP ⭐
+- Precompute `left[i]` (ending at i) and `right[i]` (starting at i)
+- Combine at each point to handle "remove one element" scenarios
+- **Longest Alternating Subarray** - Connect across removed element
+- **Maximum Subarray with One Deletion** - Same pattern
+
 ## Framework for Solving
 
 1. **Define State**: What does dp[i] or dp[i][j] represent?
@@ -100,7 +106,7 @@ int knapsack(vector<int>& wt, vector<int>& val, int W) {
 
 | # | Problem | Difficulty | Pattern | Status |
 |---|---------|------------|---------|--------|
-| | | | | |
+| 1 | [Longest Alternating Subarray](longest-alternating-subarray.md) | Medium | Right-Left DP | ✅ Solved |
 
 ## Quick Tips
 - If you see "count ways" or "min/max" → likely DP
