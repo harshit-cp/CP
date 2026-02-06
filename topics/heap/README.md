@@ -14,6 +14,7 @@ Complete binary tree with heap property for efficient min/max operations.
 2. **Merge K Sorted** - Min heap for next smallest
 3. **Median Stream** - Two heaps (max + min)
 4. **Task Scheduling** - Priority-based processing
+5. **Lazy Deletion** ⭐ - Push freely, validate on pop (can't delete from PQ)
 
 ## Templates
 
@@ -49,9 +50,26 @@ for (int num : nums) {
 
 | # | Problem | Difficulty | Pattern | Status |
 |---|---------|------------|---------|--------|
-| | | | | |
+| 1 | [Minimum Pair Removal to Sort Array II](minimum-pair-removal-to-sort-array-ii.md) | 🔴 Hard | Lazy Deletion + DLL | ✅ Solved |
 
 ## Quick Tips
 - "Top K" / "K largest/smallest" → Heap
 - Two heaps for median problems
 - Heap + hashmap for delayed deletion
+
+## Lazy Deletion Pattern ⭐
+
+```cpp
+// When you can't delete from priority_queue, use this pattern:
+while (!pq.empty()) {
+    auto [value, index] = pq.top();
+    pq.pop();
+    
+    // VALIDATE: Is this entry still valid?
+    if (removed[index] || currentValue[index] != value) {
+        continue;  // Stale entry, skip it
+    }
+    
+    // Process valid entry...
+}
+```

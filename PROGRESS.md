@@ -7,6 +7,7 @@
 | Date | Problems | Topics | Key Learnings | Notes |
 |------|----------|--------|---------------|-------|
 | Feb 4 | Longest Alternating Subarray | DP | Right-Left DP pattern for "remove one element" problems | First problem! 🎉 |
+| Feb 6 | Minimum Pair Removal to Sort Array II | Heap, Simulation | Lazy deletion, DLL simulation, incremental state | 🔴 Hard - Masterclass! |
 
 ---
 
@@ -27,16 +28,17 @@
 | Problem | Topic | Pattern | Link |
 |---------|-------|---------|------|
 | Longest Alternating Subarray | DP | Right-Left DP | [LeetCode](https://leetcode.com/problems/longest-alternating-subarray-after-removing-at-most-one-element/) |
+| Minimum Pair Removal to Sort Array II | Heap | Lazy Deletion + DLL | [LeetCode](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/) |
 
 ---
 
 ## 📊 Weekly Stats
 
 ### Week 1 (Feb 1-7, 2026)
-- Problems Solved: 1
-- Topics Covered: Dynamic Programming (Right-Left DP)
+- Problems Solved: 2
+- Topics Covered: DP (Right-Left), Heap (Lazy Deletion), Simulation (DLL)
 - Time Spent: -
-- Notes: Started with a solid Medium DP problem!
+- Notes: Crushed a Hard problem! Learning advanced patterns.
 
 ---
 

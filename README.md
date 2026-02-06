@@ -25,7 +25,7 @@
 | [Linked List](topics/linked-list/) | 0 | ⚪ Not Started |
 | [Trees](topics/trees/) | 0 | ⚪ Not Started |
 | [Tries](topics/tries/) | 0 | ⚪ Not Started |
-| [Heap / Priority Queue](topics/heap/) | 0 | ⚪ Not Started |
+| [Heap / Priority Queue](topics/heap/) | 1 | 🟡 In Progress |
 | [Graphs](topics/graphs/) | 0 | ⚪ Not Started |
 | [Dynamic Programming](topics/dynamic-programming/) | 1 | 🟡 In Progress |
 | [Greedy](topics/greedy/) | 0 | ⚪ Not Started |
@@ -36,9 +36,9 @@
 
 ## 📊 Progress Overview
 
-- **Total Problems Solved:** 1
-- **Easy:** 0 | **Medium:** 1 | **Hard:** 0
-- **Current Streak:** 1 day 🔥
+- **Total Problems Solved:** 2
+- **Easy:** 0 | **Medium:** 1 | **Hard:** 1
+- **Current Streak:** 2 days 🔥🔥
 
 ## 🏆 Platforms
 
