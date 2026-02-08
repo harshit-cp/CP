@@ -19,7 +19,7 @@
 |-------|----------------|--------|
 | [Arrays & Hashing](topics/arrays-hashing/) | 0 | 🟡 In Progress |
 | [Two Pointers](topics/two-pointers/) | 0 | ⚪ Not Started |
-| [Sliding Window](topics/sliding-window/) | 0 | ⚪ Not Started |
+| [Sliding Window](topics/sliding-window/) | 1 | 🟡 In Progress |
 | [Stack & Queue](topics/stack-queue/) | 0 | ⚪ Not Started |
 | [Binary Search](topics/binary-search/) | 0 | ⚪ Not Started |
 | [Linked List](topics/linked-list/) | 0 | ⚪ Not Started |
@@ -36,9 +36,9 @@
 
 ## 📊 Progress Overview
 
-- **Total Problems Solved:** 2
-- **Easy:** 0 | **Medium:** 1 | **Hard:** 1
-- **Current Streak:** 2 days 🔥🔥
+- **Total Problems Solved:** 3
+- **Easy:** 0 | **Medium:** 1 | **Hard:** 2
+- **Current Streak:** 3 days 🔥🔥🔥
 
 ## 🏆 Platforms
 

@@ -23,6 +23,9 @@
 | "Next greater/smaller" | Monotonic Stack |
 | "Range queries" | Segment Tree / Prefix Sum |
 | "Find single/missing number" | XOR / Bit Manipulation |
+| "Count subarrays where [condition]" | Sliding Window + `ans += (right-left+1)` |
+| "Remove one element optimally" | Right-Left DP |
+| "Simulation with deletions" | DLL via arrays + Lazy Deletion |
 
 ## Decision Flowchart
 
@@ -132,4 +135,35 @@ for i, num in enumerate(arr):
         idx = stack.pop()
         result[idx] = num
     stack.append(i)
+```
+
+### 9. Count Valid Subarrays (Sliding Window) ⭐
+```cpp
+for (int right = 0; right < n; right++) {
+    add(nums[right]);
+    while (!isValid()) {
+        remove(nums[left]);
+        left++;
+    }
+    ans += (right - left + 1);  // NOT n*(n+1)/2!
+}
+```
+
+### 10. Lazy Deletion (Heap) ⭐
+```cpp
+while (!pq.empty()) {
+    auto [value, index] = pq.top();
+    pq.pop();
+    // Skip if stale (removed or value changed)
+    if (removed[index] || current[index] != value)
+        continue;
+    // Process valid entry...
+}
+```
+
+### 11. Right-Left DP (Remove One Element) ⭐
+```cpp
+// left[i] = answer ending at i
+// right[i] = answer starting at i
+// Try removing each element and connecting left[i-1] + right[i+1]
 ```

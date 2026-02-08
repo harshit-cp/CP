@@ -8,6 +8,7 @@
 |------|----------|--------|---------------|-------|
 | Feb 4 | Longest Alternating Subarray | DP | Right-Left DP pattern for "remove one element" problems | First problem! 🎉 |
 | Feb 6 | Minimum Pair Removal to Sort Array II | Heap, Simulation | Lazy deletion, DLL simulation, incremental state | 🔴 Hard - Masterclass! |
+| Feb 8 | Count Subarrays With Cost ≤ K | Sliding Window, Heap | SW + Heap blueprint, `ans += (right-left+1)` counting | 🔴 Hard - Blueprint! |
 
 ---
 
@@ -29,16 +30,17 @@
 |---------|-------|---------|------|
 | Longest Alternating Subarray | DP | Right-Left DP | [LeetCode](https://leetcode.com/problems/longest-alternating-subarray-after-removing-at-most-one-element/) |
 | Minimum Pair Removal to Sort Array II | Heap | Lazy Deletion + DLL | [LeetCode](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/) |
+| Count Subarrays With Cost ≤ K | Sliding Window | SW + Heap Blueprint | [LeetCode](https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/) |
 
 ---
 
 ## 📊 Weekly Stats
 
 ### Week 1 (Feb 1-7, 2026)
-- Problems Solved: 2
-- Topics Covered: DP (Right-Left), Heap (Lazy Deletion), Simulation (DLL)
+- Problems Solved: 3
+- Topics Covered: DP (Right-Left), Heap (Lazy Deletion), Sliding Window, Simulation (DLL)
 - Time Spent: -
-- Notes: Crushed a Hard problem! Learning advanced patterns.
+- Notes: 2 Hard problems crushed! Building a pattern arsenal.
 
 ---
 
