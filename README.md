@@ -27,7 +27,7 @@
 | [Tries](topics/tries/) | 0 | ⚪ Not Started |
 | [Heap / Priority Queue](topics/heap/) | 1 | 🟡 In Progress |
 | [Graphs](topics/graphs/) | 0 | ⚪ Not Started |
-| [Dynamic Programming](topics/dynamic-programming/) | 1 | 🟡 In Progress |
+| [Dynamic Programming](topics/dynamic-programming/) | 2 | 🟡 In Progress |
 | [Greedy](topics/greedy/) | 0 | ⚪ Not Started |
 | [Backtracking](topics/backtracking/) | 0 | ⚪ Not Started |
 | [Bit Manipulation](topics/bit-manipulation/) | 0 | ⚪ Not Started |
@@ -36,9 +36,9 @@
 
 ## 📊 Progress Overview
 
-- **Total Problems Solved:** 3
-- **Easy:** 0 | **Medium:** 1 | **Hard:** 2
-- **Current Streak:** 3 days 🔥🔥🔥
+- **Total Problems Solved:** 4
+- **Easy:** 0 | **Medium:** 2 | **Hard:** 2
+- **Current Streak:** 4 days 🔥🔥🔥🔥
 
 ## 🏆 Platforms
 

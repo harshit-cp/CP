@@ -167,3 +167,15 @@ while (!pq.empty()) {
 // right[i] = answer starting at i
 // Try removing each element and connecting left[i-1] + right[i+1]
 ```
+
+### 12. Substring DP Loop Direction ⭐⭐⭐
+```cpp
+// If dp[i][j] depends on dp[i+1][j-1] (inner substring)
+// Loop i BACKWARDS!
+for (int i = n - 1; i >= 0; i--) {
+    for (int j = i; j < n; j++) {
+        // Now dp[i+1][...] is already computed when we reach dp[i][...]
+    }
+}
+// "Time Travel Bug": forward loop reads answers not yet written!
+```

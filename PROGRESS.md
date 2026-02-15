@@ -9,6 +9,7 @@
 | Feb 4 | Longest Alternating Subarray | DP | Right-Left DP pattern for "remove one element" problems | First problem! 🎉 |
 | Feb 6 | Minimum Pair Removal to Sort Array II | Heap, Simulation | Lazy deletion, DLL simulation, incremental state | 🔴 Hard - Masterclass! |
 | Feb 8 | Count Subarrays With Cost ≤ K | Sliding Window, Heap | SW + Heap blueprint, `ans += (right-left+1)` counting | 🔴 Hard - Blueprint! |
+| Feb 15 | Longest Almost Palindromic Substring | DP, String | Substring DP loop direction, base case debugging | 🏆 Contest! |
 
 ---
 
@@ -31,6 +32,7 @@
 | Longest Alternating Subarray | DP | Right-Left DP | [LeetCode](https://leetcode.com/problems/longest-alternating-subarray-after-removing-at-most-one-element/) |
 | Minimum Pair Removal to Sort Array II | Heap | Lazy Deletion + DLL | [LeetCode](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/) |
 | Count Subarrays With Cost ≤ K | Sliding Window | SW + Heap Blueprint | [LeetCode](https://leetcode.com/problems/count-subarrays-with-cost-less-than-or-equal-to-k/) |
+| Longest Almost Palindromic Substring | DP | Substring DP | [LeetCode](https://leetcode.com/problems/longest-almost-palindromic-substring/) |
 
 ---
 
@@ -41,6 +43,12 @@
 - Topics Covered: DP (Right-Left), Heap (Lazy Deletion), Sliding Window, Simulation (DLL)
 - Time Spent: -
 - Notes: 2 Hard problems crushed! Building a pattern arsenal.
+
+### Week 2 (Feb 8-14, 2026)
+- Problems Solved: 1
+- Topics Covered: Substring DP, Palindromes
+- Time Spent: -
+- Notes: Weekly Contest 489 - learned critical DP loop direction lesson!
 
 ---
 

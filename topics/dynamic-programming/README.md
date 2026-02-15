@@ -46,6 +46,11 @@ Optimization technique using overlapping subproblems and optimal substructure.
 - **Longest Alternating Subarray** - Connect across removed element
 - **Maximum Subarray with One Deletion** - Same pattern
 
+### 9. Substring DP (2D on [i,j]) ⭐
+- `dp[i][j]` = answer for substring `s[i...j]`
+- **CRITICAL:** If `dp[i][j]` depends on `dp[i+1][j-1]`, loop `i` BACKWARDS!
+- **Palindrome problems** - Check ends + inner substring
+
 ## Framework for Solving
 
 1. **Define State**: What does dp[i] or dp[i][j] represent?
@@ -107,6 +112,7 @@ int knapsack(vector<int>& wt, vector<int>& val, int W) {
 | # | Problem | Difficulty | Pattern | Status |
 |---|---------|------------|---------|--------|
 | 1 | [Longest Alternating Subarray](longest-alternating-subarray.md) | Medium | Right-Left DP | ✅ Solved |
+| 2 | [Longest Almost Palindromic Substring](longest-almost-palindromic-substring.md) | Medium | Substring DP | ✅ Solved |
 
 ## Quick Tips
 - If you see "count ways" or "min/max" → likely DP
